@@ -26,7 +26,7 @@ const { default: headenrsPage } = require("../pageobjects/headenrsPage")
 //     await browser.url('/');
 //     await beforeTestPage.login(creds.userName, creds.password);
 // })
-xdescribe('Header buttons', () => {
+describe('Header buttons', () => {
     // beforeEach('reopen page', async () => {
     //     await browser.url('/');
     // })
@@ -231,7 +231,7 @@ describe("Voice", () => {
     
 });
 
-xdescribe("iFrame", () => {
+describe("iFrame", () => {
     it("Ceck status on the pop-up window", async () => {
         await popUpWindowPage.clickPopUpWindowButt()
         await popUpWindowPage.switchMainFrame()
