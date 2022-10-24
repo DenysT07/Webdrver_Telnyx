@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Oct 24 22:52:54 UTC 2022","Mon Oct 24 22:53:00 UTC 2022","6248","","Header buttons","","Header buttons","Check ""Card"" button","Check ""Card"" button",""
+"passed","Mon Oct 24 22:53:02 UTC 2022","Mon Oct 24 22:53:07 UTC 2022","4402","","Header buttons","","Header buttons","Check 'Platform Status' button","Check 'Platform Status' button",""
+"passed","Mon Oct 24 22:53:09 UTC 2022","Mon Oct 24 22:53:13 UTC 2022","4458","","Header buttons","","Header buttons","Check Promo code field","Check Promo code field",""
