@@ -24,12 +24,13 @@
         "popUpWindow": "npx cross-env NODE_ENV=test npx wdio run wdio.conf.js  --spec popUpWindow.e2e.js",
         "headers": "npx cross-env NODE_ENV=test npx wdio run wdio.conf.js  --spec headers.e2e.js",
         "smallTests": "npx cross-env NODE_ENV=test npx wdio run wdio.conf.js  --suite smallTests",
-        "report:generate": "npx allure generate allure-results --clean",
-        "report:open": "npx allure open",
+        "report:generate": "allure generate allure-results --clean",
+        "report:open": "allure open",
         "Docker": "npx cross-env NODE_ENV=test wdio run wdioDocker.conf.js",
         "FireFox": "npx cross-env NODE_ENV=test wdio run wdioFireFox.conf.js"
     },
     "dependencies": {
+        "allure-commandline": "^2.18.1",
         "geckodriver": "^3.2.0",
         "random-string": "^0.2.0"
     }
