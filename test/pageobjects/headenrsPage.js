@@ -1,7 +1,7 @@
 import page from "./page"
 
 const platformStatusButt = '[class="tx-1pz1KC"]>section>div>a'
-const title = '[class="status font-large"]'
+const title = '[class="whitespace-pre-wrap actual-title with-ellipsis"]'
 const plusButton = '[class*="tx-2sQL9h"]'
 const promoField = '[name="promocode"]'
 const addButt = '[class="ml-2"]>[class*=" QRlWQ"]'

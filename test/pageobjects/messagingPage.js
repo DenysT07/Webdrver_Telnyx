@@ -19,13 +19,17 @@ const deleteButt = '[class*="25bAfo"]'
 const confirmMessage = '[class="Message__MessageContent-sc-1lbs5ge-1 ijTSPa"]'
 const profilTrashBin = '[class="tx-Z2cdXrc"]'
 const confirmTitle = '[class="tx-Z1bQ1vM"]' 
+const addNewProf = '[data-testid="add-messaging-profile-button"]'
 
 class MessaginPage {
+    async clickAddNewProfButt() {
+        await page.clickClicableElement(addNewProf)
+    }
     async clickSearchYourFreeNumberButt() {
-        await page.clickElement(searchYourFreeNumberButt)
+        await page.clickClicableElement(searchYourFreeNumberButt)
     }
     async clickClaimYourNumberButt() {
-        await page.clickElement(claimYourNumberButt)
+        await page.clickClicableElement(claimYourNumberButt)
     }
     async isErrorMessageHaveText(text) {
         await page.elementToHaveText(errorMessage, text)
@@ -37,46 +41,46 @@ class MessaginPage {
         await page.typeElement(profileNameField, text)
     }
     async clickSaveButt() {
-        await page.clickElement(saveButt)
+        await page.clickClicableElement(saveButt)
     }
     async isProfileLocHaveText(text) {
         await page.elementToHaveText(profileLoc, text)
     }
     async clickCreateNewOrderButt() {
-        await page.clickElement(createNewOrderButt)
+        await page.clickClicableElement(createNewOrderButt)
     }
     async typeOrderNhoneNumberField(value) {
         await page.typeElement(orderNhoneNumberField, value)
     }
     async clickDropDownArrow() {
-        await page.clickElement(dropDownArrow)
+        await page.clickClicableElement(dropDownArrow)
     }
     async clickProfileInDropDown() {
-        await page.clickElement(profileInDropDown)
+        await page.clickClicableElement(profileInDropDown)
     }
     async clickCreateOrder() { 
-        await page.clickElement(createOrder)
+        await page.clickClicableElement(createOrder)
     }
     async clickOrdersButt() {
-        await page.clickElement(ordersButt)
+        await page.clickClicableElement(ordersButt)
     }
     async isPhoneNumberHaveText(text) {
         await page.elementToHaveText(phoneNumberLoc, text)
     }
     async clickPancileButt() {
-        await page.clickElement(pancileButt)
+        await page.clickClicableElement(pancileButt)
     }
     async clickTrashBinButt() {
-        await page.clickElement(trashBinButt)
+        await page.clickClicableElement(trashBinButt)
     }
     async clickDeleteButt() {
-        await page.clickElement(deleteButt)
+        await page.clickClicableElement(deleteButt)
     }
     async isConfirmMessageHaveText(text) {
         await page.elementToHaveText(confirmMessage, text)
     }
     async clickProfilTrashBin() {
-        await page.clickElement(profilTrashBin)
+        await page.clickClicableElement(profilTrashBin)
     }
     async isConfirmTitleHaveText(text) {
         await page.elementToHaveText(confirmTitle, text)

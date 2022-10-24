@@ -25,7 +25,7 @@ class LeftMenuPage {
         await page.clickElement(trashBinButt)
     }
     async clickDeleteButt() {
-        await page.clickElement(deleteButt)
+        await page.clickClicableElement(deleteButt)
     }
 
 
