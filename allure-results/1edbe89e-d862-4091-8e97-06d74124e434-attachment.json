@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "[class*=\"iBcEMa\"] li:nth-child(2) div>div>button"
+}

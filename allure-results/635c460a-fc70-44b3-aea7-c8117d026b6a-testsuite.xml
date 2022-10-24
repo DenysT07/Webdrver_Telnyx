@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666630533000' stop='1666630533002'>
+    <name>iFrame</name>
+    <title>iFrame</title>
+    <test-cases>
+        <test-case start='1666630533001' status='pending' stop='1666630533001'>
+            <name>Ceck status on the pop-up window</name>
+            <title>Ceck status on the pop-up window</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666630533001' status='pending' stop='1666630533001'>
+            <name>Check search field on the pop-up window</name>
+            <title>Check search field on the pop-up window</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

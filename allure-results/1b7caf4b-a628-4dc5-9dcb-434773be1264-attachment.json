@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[class=\"relative h-100\"] nav section>ul:nth-child(2)>li:nth-child(6) a\"}\n  (Session info: chrome=106.0.5249.119)",
+  "stacktrace": "Backtrace:\n\tOrdinal0 [0x008C1ED3+2236115]\n\tOrdinal0 [0x008592F1+1807089]\n\tOrdinal0 [0x007666FD+812797]\n\tOrdinal0 [0x007955DF+1005023]\n\tOrdinal0 [0x007957CB+1005515]\n\tOrdinal0 [0x007C7632+1209906]\n\tOrdinal0 [0x007B1AD4+1120980]\n\tOrdinal0 [0x007C59E2+1202658]\n\tOrdinal0 [0x007B18A6+1120422]\n\tOrdinal0 [0x0078A73D+960317]\n\tOrdinal0 [0x0078B71F+964383]\n\tGetHandleVerifier [0x00B6E7E2+2743074]\n\tGetHandleVerifier [0x00B608D4+2685972]\n\tGetHandleVerifier [0x00952BAA+532202]\n\tGetHandleVerifier [0x00951990+527568]\n\tOrdinal0 [0x0086080C+1837068]\n\tOrdinal0 [0x00864CD8+1854680]\n\tOrdinal0 [0x00864DC5+1854917]\n\tOrdinal0 [0x0086ED64+1895780]\n\tBaseThreadInitThunk [0x760DFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x76EF7BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x76EF7B8E+238]\n"
+}

@@ -1,0 +1,67 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666629324432' stop='1666629324433'>
+    <name>Messagin</name>
+    <title>Messagin</title>
+    <test-cases>
+        <test-case start='1666629324432' status='pending' stop='1666629324432'>
+            <name>Check 'Learn &amp; Build' page </name>
+            <title>Check 'Learn &amp; Build' page </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666629324432' status='pending' stop='1666629324432'>
+            <name>Check 'Messaging Profiles' page</name>
+            <title>Check 'Messaging Profiles' page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666629324432' status='pending' stop='1666629324432'>
+            <name>Check 'Hosted SMS' page</name>
+            <title>Check 'Hosted SMS' page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666629324432' status='pending' stop='1666629324432'>
+            <name>Delete ordered number from 'orders' page </name>
+            <title>Delete ordered number from 'orders' page </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666629324432' status='pending' stop='1666629324432'>
+            <name>Delete Messaging Profiles from 'Messaging Profiles' page</name>
+            <title>Delete Messaging Profiles from 'Messaging Profiles' page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
