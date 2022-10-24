@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "[class=\"relative h-100\"] nav section>ul:nth-child(2)>li:nth-child(3)>div>a:nth-child(1)"
+}
