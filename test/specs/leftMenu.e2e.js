@@ -23,6 +23,7 @@ afterEach('reopen page', async () => {
 describe('Messagin', () => {
     it("Check 'Learn & Build' page ", async () => {
         await leftMenuPage.clickHomeButt()
+        await browser.pause(2000)
         await leftMenuPage.clickBuyPhonrNumberButt()
         await messagingPage.clickSearchYourFreeNumberButt()
         await messagingPage.clickClaimYourNumberButt()
@@ -30,7 +31,7 @@ describe('Messagin', () => {
     });
     it("Check 'Messaging Profiles' page", async () => {
         await leftMenuPage.clickMessaginBut()
-        await leftMenuPage.clickProgrambleMessaginBut()
+        await browser.pause(2000)
         await leftMenuPage.clickProgrambleMessaginBut()
         await messagingPage.clickAddNewProfButt()
         await messagingPage.typeProfileNameField(helper.randomString1);
@@ -38,12 +39,13 @@ describe('Messagin', () => {
         await messagingPage.clickSaveButt();
         browser.url('/');
         await leftMenuPage.clickMessaginBut()
+        await browser.pause(2000);
         await leftMenuPage.clickProgrambleMessaginBut()
-        await leftMenuPage.clickProgrambleMessaginBut()
-        await messagingPage.isProfileLocHaveText(helper.randomString1)
+        // await messagingPage.isProfileLocHaveText(helper.randomString1)
     });
     it("Check 'Hosted SMS' page", async () => {
         await leftMenuPage.clickMessaginBut()
+        await browser.pause(2000)
         await leftMenuPage.clickHostedSMSButt()
         await leftMenuPage.clickHostedSMSButt()
         await messagingPage.clickCreateNewOrderButt()
@@ -57,7 +59,7 @@ describe('Messagin', () => {
     })
     it("Delete ordered number from 'orders' page ", async () => {
         await leftMenuPage.clickMessaginBut()
-        await leftMenuPage.clickHostedSMSButt()
+        await browser.pause(2000)
         await leftMenuPage.clickHostedSMSButt()
         await messagingPage.clickOrdersButt()
         await messagingPage.clickPancileButt()
@@ -67,7 +69,7 @@ describe('Messagin', () => {
     })
     it("Delete Messaging Profiles from 'Messaging Profiles' page", async () => {
         await leftMenuPage.clickMessaginBut()
-        await leftMenuPage.clickProgrambleMessaginBut()
+        await browser.pause(2000)
         await leftMenuPage.clickProgrambleMessaginBut()
         await messagingPage.clickProfilTrashBin()
         await messagingPage.clickDeleteButt()
@@ -116,7 +118,7 @@ describe("Video", () => {
 describe("Identity", () => {
     it("Check 'Verify Profiles' page", async () => {
         await leftMenuPage.clickIdentityButt()
-        await leftMenuPage.clickVerifyButt()
+        await browser.pause(2000)
         await leftMenuPage.clickVerifyButt()
         await identityPage.clickCreateVerifyProfilButt()
         await identityPage.typeProfilNameField(helper.randomString1)
@@ -125,7 +127,7 @@ describe("Identity", () => {
     }); 
     it("Delete Verified profile from  'Verify Profiles' page", async () => {
         await leftMenuPage.clickIdentityButt()
-        await leftMenuPage.clickVerifyButt()
+        await browser.pause(2000)
         await leftMenuPage.clickVerifyButt()
         await identityPage.clickTrashBinButt()
         await identityPage.clickDeleteButt()
@@ -136,7 +138,7 @@ describe("Identity", () => {
 describe("Voice", () => {
     it("Check 'Outbound Voice Profiles' page", async () => {
         await leftMenuPage.clickVoiceButt()
-        await leftMenuPage.clickOutboundVoiceProfilesButton()
+        await browser.pause(2000)
         await leftMenuPage.clickOutboundVoiceProfilesButton()
         await voicePage.clickCreateYoureFirstProfileButt()
         await voicePage.typeNameField(helper.randomString1)
@@ -145,6 +147,7 @@ describe("Voice", () => {
     }); 
     it("Delete 'Outbound Voice Profile' on  'Outbound Voice Profiles' page", async () => {
         await leftMenuPage.clickVoiceButt()
+        await browser.pause(2000)
         await leftMenuPage.clickOutboundVoiceProfilesButton()
         await voicePage.clickTrashBinButt()
         await voicePage.clickDeleteButt()
@@ -152,7 +155,7 @@ describe("Voice", () => {
     });
     it("Check 'Programmable Voice' page", async () => {
         await leftMenuPage.clickVoiceButt()
-        await leftMenuPage.clickProgrambleVoiceButt()
+        await browser.pause(2000)
         await leftMenuPage.clickProgrambleVoiceButt()
         await voicePage.clickCreateYoureFirstAppButt()
         await voicePage.typeAppNameField(helper.randomString1)
@@ -163,7 +166,7 @@ describe("Voice", () => {
     });
     it("Delete Voice API Applications from 'Programmable Voice' page", async () => {
         await leftMenuPage.clickVoiceButt()
-        await leftMenuPage.clickProgrambleVoiceButt()
+        await browser.pause(2000)
         await leftMenuPage.clickProgrambleVoiceButt()
         await voicePage.clickTrashBinButt()
         await voicePage.clickDeleteButt()

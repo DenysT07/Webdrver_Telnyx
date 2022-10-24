@@ -3,7 +3,7 @@ const homeButt = '[class="relative h-100"] nav section>ul:nth-child(2)>li:nth-ch
 const buyPhoneNumberButt = '[class*="fMbAzJ"] button'
 const messaginBut = '[class="relative h-100"] nav section>ul:nth-child(2)>li:nth-child(3) button'
 const programbleMessaginBut = '[class="relative h-100"] nav section>ul:nth-child(2)>li:nth-child(3)>div>a:nth-child(1)'
-const hostedSMSButt = '[class="relative h-100"] nav section>ul:nth-child(2)>li:nth-child(3)>div>a:nth-child(5)'
+const hostedSMSButt = '[class="relative h-100"] nav section>ul:nth-child(2)>li:nth-child(3)>div>a:nth-child(4)'
 const networkingButt = '[class="relative h-100"] nav section>ul:nth-child(2)>li:nth-child(8) a'
 const videoButt = '[class="relative h-100"] nav section>ul:nth-child(2)>li:nth-child(6) a'
 const identityButt = '[class="relative h-100"] nav section>ul:nth-child(2)>li:nth-child(5)>button'

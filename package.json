@@ -21,6 +21,8 @@
     "scripts": {
         "wdio": "npx cross-env NODE_ENV=test wdio run wdio.conf.js",
         "leftMenu": "npx cross-env NODE_ENV=test npx wdio run wdio.conf.js  --spec leftMenu.e2e.js",
+        "popUpWindow": "npx cross-env NODE_ENV=test npx wdio run wdio.conf.js  --spec popUpWindow.e2e.js",
+        "headers": "npx cross-env NODE_ENV=test npx wdio run wdio.conf.js  --spec headers.e2e.js",
         "smallTests": "npx cross-env NODE_ENV=test npx wdio run wdio.conf.js  --suite smallTests",
         "report:generate": "npx allure generate allure-results --clean",
         "report:open": "npx allure open",
