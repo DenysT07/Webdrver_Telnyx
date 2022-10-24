@@ -10,7 +10,7 @@ const deleteButt = '[class*="25bAfo"]'
 
 class LeftMenuPage {
     async clickTryTheDemoButt() {
-        await page.clickElement(tryTheDemoAppButt)
+        await page.clickClicableElement(tryTheDemoAppButt)
     }
     async typeNameField(value) {
         await page.typeElement(nameField, value)

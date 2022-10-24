@@ -49,7 +49,7 @@ class LeftMenuPage {
         await page.clickElement(programbleVoiceButt)
     }
     async clickOutboundVoiceProfilesButton() {
-        await page.clickElement(outboundVoiceProfilesButton)
+        await page.clickClicableElement(outboundVoiceProfilesButton)
     }
 }
 export default new LeftMenuPage

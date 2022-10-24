@@ -13,14 +13,19 @@
         "@wdio/mocha-framework": "^7.25.2",
         "@wdio/spec-reporter": "^7.25.1",
         "chromedriver": "^106.0.1",
+        "cross-env": "^7.0.3",
         "wdio-chromedriver-service": "^8.0.0",
         "wdio-geckodriver-service": "^4.0.0",
         "wdio-wait-for": "^3.0.0"
     },
     "scripts": {
-        "wdio": "wdio run wdio.conf.js",
+        "wdio": "npx cross-env NODE_ENV=test wdio run wdio.conf.js",
+        "leftMenu": "npx cross-env NODE_ENV=test npx wdio run wdio.conf.js  --spec leftMenu.e2e.js",
+        "smallTests": "npx cross-env NODE_ENV=test npx wdio run wdio.conf.js  --suite smallTests",
         "report:generate": "npx allure generate allure-results --clean",
-        "report:open": "npx allure open"
+        "report:open": "npx allure open",
+        "Docker": "npx cross-env NODE_ENV=test wdio run wdioDocker.conf.js",
+        "FireFox": "npx cross-env NODE_ENV=test wdio run wdioFireFox.conf.js"
     },
     "dependencies": {
         "geckodriver": "^3.2.0",

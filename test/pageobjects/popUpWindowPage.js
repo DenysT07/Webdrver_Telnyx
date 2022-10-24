@@ -2,7 +2,7 @@ import page from "./page"
 
 const popUpWindowButt = '[class*="launcher-icon-open"]'
 const statusButt = '.intercom-1c8rdjc.ebvwrrs3'
-const statusLoc = '[class="whitespace-pre-wrap actual-title with-ellipsis"]'
+const statusLoc = '[class="status font-large"]'
 const sarchField = '[class*="epcpgzs2"]'
 const secSearchField = '[aria-label="Search for help"]'
 const firstSearchResult = '[class="intercom-b8kzem ev7qqra0"]>div:nth-child(1)>div>p'
