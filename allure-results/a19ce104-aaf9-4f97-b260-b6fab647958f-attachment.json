@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "[class=\"relative h-100\"] nav section>ul:nth-child(2)>li:nth-child(5)>button"
-}
