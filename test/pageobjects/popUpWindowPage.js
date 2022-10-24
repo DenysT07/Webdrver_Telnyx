@@ -1,6 +1,6 @@
 import page from "./page"
 
-const popUpWindowButt = '[class*="launcher-icon-open"]'
+const popUpWindowButt = '[class="intercom-lightweight-app-launcher intercom-launcher"]'
 const statusButt = '.intercom-1c8rdjc.ebvwrrs3'
 const statusLoc = '[class="status font-large"]'
 const sarchField = '[class*="epcpgzs2"]'
